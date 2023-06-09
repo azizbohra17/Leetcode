@@ -1,0 +1,1 @@
+This repository contains my solutions and practice code for LeetCode problems. LeetCode is a popular platform for preparing technical coding interviews, sharpening algorithmic skills, and improving problem-solving abilities.
