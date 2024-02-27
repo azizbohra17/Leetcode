@@ -1,10 +1,10 @@
 def divide(dividend, divisor):
-    constraint = 2**31
-    print(constraint)
-    if dividend <= (-constraint):
-        return 2 ** 31 - 1
-    quotient = int(dividend / divisor)
-    return quotient
+        constraint = 2**31
+        if dividend == -constraint and divisor == 1:
+            return -constraint
+        if dividend == -constraint and divisor == -1:
+            return constraint - 1
+        quotient = int(dividend / divisor)
+        return quotient
 
-
-print(divide(-2147483648, -1))
+# print(divide(-2147483648, -1))
